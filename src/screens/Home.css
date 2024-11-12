@@ -1,0 +1,35 @@
+#container {
+    padding: 30px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .delete-button {
+    margin-left: auto;
+    background-color: #dddada;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    text-align: center;
+    width: 60px;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
